@@ -12,6 +12,12 @@ const config = {
     parent: 'contenedor',
     backgroundColor: '#f9ca24',
     pixelArt: true,
+    physics: {
+        default: "arcade",
+        // arcade: {
+        //     gravity: { y: 100 }
+        // }
+    },
     scene: [Bootloader, Play, Gameover, UI, Menu]
 };
 
